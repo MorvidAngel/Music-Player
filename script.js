@@ -4,7 +4,7 @@ const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
-const progressContainer = document.getElementById('progress-Container');
+const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
@@ -32,6 +32,7 @@ function playSong() {
 
   audio.play();
 }
+
 // pause song
 function pauseSong() {
   musicContainer.classList.remove('play');
